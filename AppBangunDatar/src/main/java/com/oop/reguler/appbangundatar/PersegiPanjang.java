@@ -1,6 +1,7 @@
 package com.oop.reguler.appbangundatar;
 
-public class PersegiPanjang extends BangunDatar{
+public class PersegiPanjang extends BangunDatar {
+
   private double panjang;
   private double lebar;
 
@@ -22,8 +23,7 @@ public class PersegiPanjang extends BangunDatar{
   public void setLebar(double lebar) {
     this.lebar = lebar;
   }
-  
-  
+
   @Override
   double luas() {
     return panjang * lebar;
@@ -33,5 +33,5 @@ public class PersegiPanjang extends BangunDatar{
   double keliling() {
     return 2 * (panjang + lebar);
   }
-  
+
 }

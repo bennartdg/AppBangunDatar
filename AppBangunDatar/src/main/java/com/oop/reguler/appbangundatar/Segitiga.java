@@ -11,44 +11,44 @@ package com.oop.reguler.appbangundatar;
  */
 public class Segitiga extends BangunDatar {
 
-    private double alas;
-    private double tinggi;
+  private double alas;
+  private double tinggi;
 
-    public Segitiga() {
-    }
+  public Segitiga() {
+  }
 
-    public Segitiga(double alas, double tinggi) {
-        this.alas = alas;
-        this.tinggi = tinggi;
-    }
+  public Segitiga(double alas, double tinggi) {
+    this.alas = alas;
+    this.tinggi = tinggi;
+  }
 
-    public double getAlas() {
-        return alas;
-    }
+  public double getAlas() {
+    return alas;
+  }
 
-    public void setAlas(double alas) {
-        this.alas = alas;
-    }
+  public void setAlas(double alas) {
+    this.alas = alas;
+  }
 
-    public double getTinggi() {
-        return tinggi;
-    }
+  public double getTinggi() {
+    return tinggi;
+  }
 
-    public void setTinggi(double tinggi) {
-        this.tinggi = tinggi;
-    }
+  public void setTinggi(double tinggi) {
+    this.tinggi = tinggi;
+  }
 
-    @Override
-    double luas() {
-        return alas * tinggi / 2;
-    }
+  @Override
+  double luas() {
+    return alas * tinggi / 2;
+  }
 
-    @Override
-    double keliling() {
-        return sisiMiring() * 2 + alas;
-    }
-    
-    public double sisiMiring() {
-        return Math.sqrt(Math.pow(alas / 2, 2)) + Math.pow(tinggi, 2);
-    }
+  @Override
+  double keliling() {
+    return sisiMiring() * 2 + alas;
+  }
+
+  public double sisiMiring() {
+    return Math.sqrt(Math.pow(alas / 2, 2)) + Math.pow(tinggi, 2);
+  }
 }

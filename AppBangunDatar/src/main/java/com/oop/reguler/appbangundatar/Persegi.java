@@ -1,6 +1,7 @@
 package com.oop.reguler.appbangundatar;
 
-public class Persegi extends BangunDatar{
+public class Persegi extends BangunDatar {
+
   private double sisi;
 
   public Persegi() {
@@ -13,7 +14,7 @@ public class Persegi extends BangunDatar{
   public void setSisi(double sisi) {
     this.sisi = sisi;
   }
-  
+
   @Override
   double luas() {
     return sisi * sisi;
@@ -23,5 +24,5 @@ public class Persegi extends BangunDatar{
   double keliling() {
     return 4 * sisi;
   }
-  
+
 }

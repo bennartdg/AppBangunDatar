@@ -8,27 +8,27 @@ package com.oop.reguler.appbangundatar;
  *
  * @author MEMi
  */
-public class Lingkaran extends BangunDatar{
-    private double r;
-    public final double phi = 3.14;
+public class Lingkaran extends BangunDatar {
 
-    public double getR() {
-        return r;
-    }
+  private double r;
+  public final double phi = 3.14;
 
-    public void setR(double r) {
-        this.r = r;
-    }
+  public double getR() {
+    return r;
+  }
 
-    @Override
-    double luas() {
-        return phi * r * r;
-    }
+  public void setR(double r) {
+    this.r = r;
+  }
 
-    @Override
-    double keliling() {
-        return 2 * phi * r;
-    }
-    
-    
+  @Override
+  double luas() {
+    return phi * r * r;
+  }
+
+  @Override
+  double keliling() {
+    return 2 * phi * r;
+  }
+
 }
