@@ -2,6 +2,8 @@ package com.oop.reguler.appbangundatar;
 
 public class Main {
   public static void main(String[] args) {
+    //Bangun Datar
+    
     Persegi persegi = new Persegi();
     PersegiPanjang persegiPanjang = new PersegiPanjang();
     Segitiga segitiga = new Segitiga();
